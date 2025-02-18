@@ -3,14 +3,14 @@ import math
 import tools
 
 def roll_many():
-    num_times = tools.int_validate_input('How many times do you want to roll the die?', 1, 20)
+    num_times = tools.int_validate_input('How many times do you want to roll the die? ', 1, 20)
 
     for x in range(num_times):
         result = random.randint(1,6)
         print('Roll #', x + 1, 'You rolled a ', result)
 
 def roll_many_and_keep_count():
-  #  print('Hey I am in the roll_many_and etc')
+  #  print('Hey, I am in the roll_many_and etc')
     side1 = 0; side2 = 0; side3 = 0; side4 = 0; side5 = 0; side6 = 0
     for x in range(6000):
         result = random.randint(1,6)
@@ -36,6 +36,5 @@ def roll_many_and_keep_count():
 def main():
     roll_many()
     roll_many_and_keep_count()
-
 
 main()
