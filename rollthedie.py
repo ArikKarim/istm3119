@@ -9,7 +9,6 @@ def roll_many():
         result = random.randint(1,6)
         print('Roll #', x + 1, 'You rolled a ', result)
 
-
 def roll_many_and_keep_count():
   #  print('Hey I am in the roll_many_and etc')
     side1 = 0; side2 = 0; side3 = 0; side4 = 0; side5 = 0; side6 = 0
@@ -33,9 +32,6 @@ def roll_many_and_keep_count():
     print('Side 4 was rolled', side4, 'times (', side4/6000,'%)')
     print('Side 5 was rolled', side5, 'times (', side5/6000,'%)')
     print('Side 6 was rolled', side6, 'times (', side6/6000,'%)')
-
-
-
 
 def main():
     roll_many()
