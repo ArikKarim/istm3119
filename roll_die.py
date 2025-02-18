@@ -1,3 +1,5 @@
+# requires tools.py module for code to function
+
 import random
 import math
 import tools
