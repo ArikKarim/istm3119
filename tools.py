@@ -1,6 +1,7 @@
+# tools module for roll_die.py
+
 import math
 import random
-
 
 def float_validate_input(prompt, low, high):
    while True:
@@ -13,7 +14,6 @@ def float_validate_input(prompt, low, high):
                return value
        except ValueError:
            print('Error. Please enter a number')
-
 
 def int_validate_input(prompt, low, high):
    while True:
