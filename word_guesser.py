@@ -41,12 +41,9 @@ def playGame(word): # main function - stitches together letterHints and getGuess
     while True:
         guess = getGuess(len(word)) # call on getguess function
         guesses += 1
-
         hint = letterHints(word, guess) # call on letterHints function
-
         if hint != "@" * len(word): # if guess incorrect
             print(hint)
-
         if hint == "@" * len(word): # check if guess correct
             print(f"Congratulations! You guessed it, the word was: {word}")
 
