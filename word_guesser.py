@@ -46,7 +46,6 @@ def playGame(word): # main function - stitches together letterHints and getGuess
             print(hint)
         if hint == "@" * len(word): # check if guess correct
             print(f"Congratulations! You guessed it, the word was: {word}")
-
             if guesses == 1: # 1 guess message
                 print("Wow, you guessed it in one try!")
             elif guesses < 7: # 2-7 guesses message
