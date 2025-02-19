@@ -1,5 +1,3 @@
-# sufficiently bored enough to do a Wellesley CS111 assignment for funzies
-
 """
 Authors:
 Consulted:
@@ -73,7 +71,10 @@ def playGame(word):
 
         # Get hints using letterHints
         hint = letterHints(word, guess)
-        print(hint)  # Removed "Feedback: "
+
+        # Only print hint if the guess is incorrect
+        if hint != "@" * len(word):
+            print(hint)
 
         # Check if the guess is correct
         if hint == "@" * len(word):
