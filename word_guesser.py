@@ -1,10 +1,4 @@
-"""
-Authors:
-Consulted:
-Date:
-Purpose: wordGuesser task: Allows user to guess words and reveals
-  which letters are correct (or misplaced but present).
-"""
+# sufficiently bored to do a Wellesley CS111 assignment just for funzies
 
 import random # will be used to play a game with a random word
 
