@@ -1,4 +1,4 @@
-# sufficiently bored to do a Wellesley CS111 assignment for funzies
+# sufficiently bored enough to do a Wellesley CS111 assignment for funzies
 
 """
 Authors:
