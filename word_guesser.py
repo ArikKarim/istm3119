@@ -26,7 +26,7 @@ def letterHints(secret, guess): # indicates correct and incorrect letter placeme
             hint += '-'
     return hint
 
-def getGuess(word_length): # indicates length of secret word
+def getGuess(word_length): # indicates word length
     while True:
         guess = input(f"Guess a word ({word_length} letters): ")
         if len(guess) == word_length:
@@ -34,39 +34,27 @@ def getGuess(word_length): # indicates length of secret word
         else:
             print(f"You must guess a word with {word_length} letters.")
 
-def playGame(word):
-    # Print introduction
-    print(INTRO)
-
-    # Print the word length before starting guesses
-    print(f"The word has {len(word)} letters.")
-
-    # Initialize guess counter
-    guesses = 0
-
-    # Main game loop
+def playGame(word): # main function - stitches together letterHints and getGuess
+    print(INTRO) # print introduction message
+    print(f"The word has {len(word)} letters.") # print word length prior to getGuess
+    guesses = 0 # initialize guess counter
     while True:
-        # Get a valid guess using getGuess
-        guess = getGuess(len(word))
+        guess = getGuess(len(word)) # call on getguess function
         guesses += 1
 
-        # Get hints using letterHints
-        hint = letterHints(word, guess)
+        hint = letterHints(word, guess) # call on letterHints function
 
-        # Only print hint if the guess is incorrect
-        if hint != "@" * len(word):
+        if hint != "@" * len(word): # if guess incorrect
             print(hint)
 
-        # Check if the guess is correct
-        if hint == "@" * len(word):
+        if hint == "@" * len(word): # check if guess correct
             print(f"Congratulations! You guessed it, the word was: {word}")
 
-            # Print appropriate message based on number of guesses
-            if guesses == 1:
+            if guesses == 1: # 1 guess message
                 print("Wow, you guessed it in one try!")
-            elif guesses < 7:
+            elif guesses < 7: # 2-7 guesses message
                 print(f"Great job! You guessed the word in just {guesses} tries.")
-            else:
+            else: # >7 guesses message
                 print(f"You guessed the word in {guesses} tries.")
             break
 
