@@ -4,5 +4,5 @@
 1. `hello.py`
 2. `cylinder_area.py`
 3. `letter_grade.py`
-4. `roll_die.py` (and `tools.py`)
+4. `roll_die.py` (w/ a `tools.py` module)
 5. `word_guesser.py`
