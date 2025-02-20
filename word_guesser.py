@@ -28,15 +28,15 @@ def letterHints(secret, guess): # indicates correct and incorrect letter placeme
 
 def getGuess(word_length): # indicates word length
     while True:
-        guess = input(f"Guess a word ({word_length} letters): ")
+        guess = input(f'Guess a word ({word_length} letters): ')
         if len(guess) == word_length:
             return guess
         else:
-            print(f"You must guess a word with {word_length} letters.")
+            print(f'You must guess a word with {word_length} letters.')
 
 def playGame(word): # main function - stitches together letterHints and getGuess
     print(INTRO) # print introduction message
-    print(f"The word has {len(word)} letters.") # print word length prior to getGuess
+    print(f'The word has {len(word)} letters.') # print word length prior to getGuess
     guesses = 0 # initialize guess counter
     while True:
         guess = getGuess(len(word)) # call on getguess function
@@ -45,13 +45,13 @@ def playGame(word): # main function - stitches together letterHints and getGuess
         if hint != "@" * len(word): # if guess incorrect
             print(hint)
         if hint == "@" * len(word): # check if guess correct
-            print(f"Congratulations! You guessed it, the word was: {word}")
+            print(f'Congratulations! You guessed it, the word was: {word}')
             if guesses == 1: # 1 guess message
-                print("Wow, you guessed it in one try!")
+                print('Wow, you guessed it in one try!')
             elif guesses < 7: # 2-7 guesses message
-                print(f"Great job! You guessed the word in just {guesses} tries.")
+                print(f'Great job! You guessed the word in just {guesses} tries.')
             else: # >7 guesses message
-                print(f"You guessed the word in {guesses} tries.")
+                print(f'You guessed the word in {guesses} tries.')
             break
 
 WORDS = [
