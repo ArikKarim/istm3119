@@ -27,4 +27,4 @@ var1.reverse()
 print(var1[0])
 
 var1.append('Ann')
-print(var1.count('Ann))
+print(var1.count('Ann'))
