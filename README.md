@@ -6,3 +6,4 @@
 3. `letter_grade.py`
 4. `roll_die.py` (w/ a `tools.py` module)
 5. `word_guesser.py`
+6. `midterm_prep.py`
