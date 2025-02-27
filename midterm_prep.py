@@ -28,3 +28,29 @@ print(var1[0])
 
 var1.append('Ann')
 print(var1.count('Ann'))
+
+# loops & strings
+
+for x in range(3):
+  print(x)
+
+var2 = 'abc'
+for x in var2:
+  print(x)
+
+print(len(var2))
+
+print(min(var2))
+
+print(max(var2))
+
+print(var2[0])
+
+print('a' < 'b')
+
+print(var2.upper())
+
+msg = 'I love Python'
+y = msg.split('')
+print(len(y))
+print(y[1])
