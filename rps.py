@@ -33,12 +33,12 @@ if user == 1:
     print(lost)
   elif comp == 3:
     print(won)
-if user == 2:
+elif user == 2:
   if comp == 1:
     print(won)
   elif comp == 3:
     print(lost)
-if user == 3:
+elif user == 3:
   if comp == 1:
     print(lost)
   elif comp == 2:
