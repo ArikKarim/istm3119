@@ -28,21 +28,20 @@ comp = random.randint(1, 3)
 
 # determine the outcome of the game 
 # 9-pronged if statement - use Boolean operators
-if user == 1 and comp == 1:
-  print(tie)
-if user == 1 and comp == 2:
-  print(lost)
-if user == 1 and comp == 3: 
-  print(won)
-if user == 2 and comp == 1:
-  print(won)
-if user == 2 and comp == 2:
-  print(tie)
-if user == 2 and comp == 3:
-  print(lost)
-if user == 3 and comp == 1:
-  print(lost)
-if user == 3 and comp == 2:
-  print(won)
-if user == 3 and comp == 3:
+if user == 1:
+  if comp == 2:
+    print(lost)
+  elif comp == 3:
+    print(won)
+if user == 2:
+  if comp == 1:
+    print(won)
+  elif comp == 3:
+    print(lost)
+if user == 3:
+  if comp == 1:
+    print(lost)
+  elif comp == 2:
+    print(won)
+else:
   print(tie)
