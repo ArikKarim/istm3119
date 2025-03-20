@@ -9,3 +9,4 @@
 6. `midterm_prep.py`
 7. `roll_die_with_list.py` (w a `tools.py` module)
 8. `rps.py`
+9. `rps_with_tuple.py`
