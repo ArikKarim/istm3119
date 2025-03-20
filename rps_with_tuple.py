@@ -15,7 +15,7 @@ rules = ((tie, lost, won),
 # ask the user for their choice but instead of using an if statement to print the word
 print('You chose', choices[user - 1])
 
-# for the comp choicem, do the same thing
+# for the comp choice, do the same thing
 
 # determine the outcome from the game 
 print()
