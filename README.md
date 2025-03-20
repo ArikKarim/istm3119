@@ -8,3 +8,4 @@
 5. `word_guesser.py`
 6. `midterm_prep.py`
 7. `roll_die_with_list.py` (w a `tools.py` module)
+8. `rock_paper_scissor.py`
