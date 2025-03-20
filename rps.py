@@ -22,3 +22,27 @@ else:
 
 # 'ask' the computer what they choose = randint
 comp = random.randint(1, 3)
+# repeat an if statement that will print the message based on what the computer chose
+# Ex: Computer chose paper
+# Ex: Computer chose rock
+
+# determine the outcome of the game 
+# 9-pronged if statement - use Boolean operators
+if user == 1 and comp == 1:
+  print(tie)
+if user == 1 and comp == 2:
+  print(lost)
+if user == 1 and comp == 3: 
+  print(won)
+if user == 2 and comp == 1:
+  print(won)
+if user == 2 and comp == 2:
+  print(tie)
+if user == 2 and comp == 3:
+  print(lost)
+if user == 3 and comp == 1:
+  print(lost)
+if user == 3 and comp == 2:
+  print(won)
+if user == 3 and comp == 3:
+  print(tie)
