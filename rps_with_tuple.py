@@ -6,7 +6,7 @@ won = 'Congrats, you won'
 lost = 'You lost'
 
 # tuples that are helpful for our code
-choices = ('rock, paper, scissors')
+choices = ('rock', 'paper', 'scissors')
 
 rules = ((tie, lost, won),
         (won, tie, lost),
