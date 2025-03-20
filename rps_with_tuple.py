@@ -1,5 +1,7 @@
 import random
 
+
+
 # 3 strings for the 3 outcomes
 tie = 'It is a tie'
 won = 'Congrats, you won'
@@ -18,3 +20,4 @@ print('You chose', choices[user - 1])
 # for the comp choicem, do the same thing
 
 # determine the outcome from the game 
+print()
