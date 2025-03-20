@@ -1,7 +1,5 @@
 import random
 
-
-
 # 3 strings for the 3 outcomes
 tie = 'It is a tie'
 won = 'Congrats, you won'
