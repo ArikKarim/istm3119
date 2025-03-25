@@ -7,6 +7,6 @@
 4. `roll_die.py` (w/ a `tools.py` module)
 5. `word_guesser.py`
 6. `midterm_prep.py`
-7. `roll_die_with_list.py` (w a `tools.py` module)
+7. `roll_die_with_list.py`
 8. `rps.py`
 9. `rps_with_tuple.py`
