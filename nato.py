@@ -8,4 +8,8 @@ sentences = ""
 
 for c in user_codes:
   word = nato_map.get(c)
-  sentence = sentence + word + ""
+  if word is None:
+      word = c
+  sentence = sentence + word + ' '
+
+print('Then you should speak:', sentence)
