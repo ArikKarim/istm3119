@@ -1,3 +1,6 @@
+# Arik Karim
+# G36370973
+
 import random
 
 def roll_many_and_keep_count():
