@@ -1,4 +1,5 @@
 import math
+import random
 import tools
 
 def roll_many_and_keep_count():
