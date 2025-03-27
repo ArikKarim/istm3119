@@ -36,6 +36,7 @@ nato_map = {
     '8': 'eight',
     '9': 'niner'
 }
+
 user_codes = input("Type in the letters you wish to speak").lower()
 
 # user codes 'abc9'
