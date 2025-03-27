@@ -1,4 +1,4 @@
-nato_map = None
+open('nato.json', file_mode())
 
 user_codes = input("Type in the code you wish to speak: ").lower()
 
