@@ -2,6 +2,7 @@ import json
 
 file_ptr = open('nato.json', 'r')
 json.load(file_ptr)
+file_ptr.close()
 
 nato_map = None
 user_codes = input("Type in the code you wish to speak: ").lower()
