@@ -8,7 +8,5 @@
 5. `word_guesser.py`
 6. `midterm_prep.py`
 7. `roll_die_with_list.py`
-8. `rps.py`
-9. `rps_with_tuple.py`
-10. `rpsls.py`
-11. `nato.py` (w/ a `nato.json` dictionary)
+8. `rpsls.py`
+9. `nato.py` (w/ a `nato.json` dictionary)
